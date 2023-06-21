@@ -3,9 +3,9 @@
 Title: Training Feed-Forward Multi-Layer Perceptron Networks using Evolutionary Algorithms for Function Approximation
 
 Abstract:
-This coursework aims to train feed-forward multi-layer perceptron networks with two hidden layers to approximate a specific function using evolutionary algorithms. The function to be approximated is y = sin(3.5x1 + 1.0)cos(5.5x2), where x1 and x2 are in the range [-1, 1]. The implementation is performed in a language of choice, with a recommendation to use Python libraries, including NumPy, PyTorch, and DEAP.
+This coursework aims to train feed-forward multi-layer perceptron networks with two hidden layers to approximate a specific function using evolutionary algorithms. The function to be approximated is y = sin(3.5x1 + 1.0)cos(5.5x2), where x1 and x2 are in the range [-1, 1]. The implementation is performed in Python, including NumPy, PyTorch, and DEAP.
 
-The coursework involves various tasks. Firstly, the function is visualized with a 3D surface plot. Then, 1100 samples of x1 and x2 are randomly generated within the range, and the corresponding y values are calculated. The dataset is divided into a training set (1000 samples) and a test set (100 samples), both of which are visualized separately in 3D graphics.
+Firstly, the function is visualized with a 3D surface plot. Then, 1100 samples of x1 and x2 are randomly generated within the range, and the corresponding y values are calculated. The dataset is divided into a training set (1000 samples) and a test set (100 samples), both of which are visualized separately in 3D graphics.
 
 A fully connected neural network with six hidden neurons in each hidden layer is implemented. Sigmoid activation function is used for hidden neurons, while the output neuron utilizes a linear activation function. The code for creating the network is provided.
 
@@ -19,7 +19,7 @@ The Rprop learning algorithm is embedded in the genetic algorithm as a local sea
 
 Furthermore, the Baldwinian learning approach replaces the Lamarckian approach, and the results are compared and discussed. The training and test errors across generations, along with the 3D surface plot, are shown and analyzed for differences and potential reasons.
 
-Overall, this coursework provides hands-on experience in using evolutionary algorithms and neural networks for function approximation, showcasing the implementation, optimization, and analysis of the network's performance using different learning approaches.
+Overall, this reserach project provided me with hands-on experience in using evolutionary algorithms and neural networks for function approximation, showcasing the implementation, optimization, and analysis of the network's performance using different learning approaches.
 
 
 
